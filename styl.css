@@ -14,8 +14,8 @@
 #animal-content {
   padding: 10px;
   display: flex;
-  width: 300px;
-  height: 300px;
+  width: 80vw;
+  height: 80vh;
   background-color: yellow;
 }
 
@@ -111,6 +111,10 @@ input[type="radio"].toggle + label::after {
   background-color: green;
 }
 @media only screen and (max-width: 768px) {
+  #container {
+    width: 100vw;
+    height: 100vh;
+  }
   #form {
     flex-direction: column;
     justify-content: center;
